@@ -88,6 +88,14 @@ footer .social {
 footer .social a {
     margin: 0 10px;
 }
+body {
+    background-image: url('assests/background.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: top center; /* Display the top part of the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+}
+
 
 footer .social img {
     width: 30px; /* Adjust size for social media icons */

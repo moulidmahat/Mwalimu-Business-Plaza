@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/assests/background.jpg'); /* Add your background image here */
+    background-image: url('./assests/background.jpg'); /* Add your background image here */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: top center; /* Centers the background image */
     color: white; /* Change text color for better contrast */

@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-image: url('/assests/background.jpg'); /* Add your background image here */
     background-size: cover; /* Ensures the image covers the entire background */
-    background-position: top center; /* Centers the background image */
+    background-position: left; /* Centers the background image */
     color: white; /* Change text color for better contrast */
     body {
     background-color: rgba(0, 0, 0, 0.5); /* This should show a semi-transparent black background */

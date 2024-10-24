@@ -6,25 +6,19 @@ body {
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the image in place while scrolling */
-    color: white; /* Ensures text color is white */
-    position: relative; /* To properly stack the overlay */
-    z-index: 1; /* Text stays above the overlay */
+    background-attachment: fixed; /* Makes the image stay in place while scrolling */
+    color: rgb(53, 6, 6); /* Sets the text color using a valid RGB format */
 }
 
 body::before {
     content: "";
-    position: fixed; /* Fixed overlay */
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-    z-index: -1; /* Overlay behind the content */
-}
-
-h1, h2, p, a { 
-    color: white; /* Ensure all headings, paragraphs, and links are white */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black overlay */
+    z-index: -1; /* Places the overlay behind the content */
 }
 
 

@@ -7,8 +7,20 @@ body {
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Makes the image stay in place while scrolling */
-    color: white; /* Sets the text color using a valid RGB format */
+    color: white; /* Sets the text color to white */
 }
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black overlay */
+    z-index: -1; /* Places the overlay behind the content */
+}
+
 
 body::before {
     content: "";
